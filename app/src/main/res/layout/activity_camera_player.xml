@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/custom_title2"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/realTimePlay"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:gravity="center" >
+            </LinearLayout>
+
+            <include layout="@layout/player_misc" />
+            
+        </FrameLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dip"
+        android:orientation="horizontal">
+            <ImageView 
+            	android:id="@+id/camera_image"
+            	android:layout_width="40dip" 
+            	android:layout_height="40dip" 
+            	android:gravity="center">
+            </ImageView>
+            <TextView
+		        android:id="@+id/camera_name"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dip"
+		        android:layout_marginLeft="13px"
+		        android:text="@string/menu_camera_realtime_scan"
+		        android:gravity="center"
+		        android:textColor="#99CCFF" >
+		    </TextView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ptzControl_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/ptz_control"
+        android:visibility="gone" />
+
+</RelativeLayout>

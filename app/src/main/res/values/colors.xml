@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="bg_white">#ffffff</color>
+    
+    <color name="streamSelected">#63b1ff</color>
+    
+    <color name="streamDisabled">#777777</color>
+    
+    <color name="bg_blue">#3399ff</color>
+    
+    <color name="bubble_dark_background">#B2191919</color>
+    <drawable name="custome_gray">#808080FF</drawable>
+    <drawable name="custome_blue">#87CEFA</drawable>
+    <color name="blue">#81C5FC</color>
+    
+    <color name="streamNormal">#eeeeee</color>
+    
+</resources>

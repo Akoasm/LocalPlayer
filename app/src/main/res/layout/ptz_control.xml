@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptzControl_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/ptz_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="160dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <AbsoluteLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="160dip"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ptz_up_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="33dip"
+                        android:layout_y="34.5dip"
+                        android:background="@drawable/ptz_up_blur"
+                        android:focusable="true" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/ptz_left_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="15.3dip"
+                        android:layout_y="53.2dip"
+                        android:background="@drawable/ptz_left_blur"
+                        android:focusable="true" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/ptz_right_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="95dip"
+                        android:layout_y="53dip"
+                        android:background="@drawable/ptz_right_blur"
+                        android:focusable="true" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/ptz_down_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="33dip"
+                        android:layout_y="114.8dip"
+                        android:background="@drawable/ptz_down_blur"
+                        android:focusable="true" >
+                    </ImageButton>
+                </AbsoluteLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/ptz_radioGroup"
+                        android:layout_width="191dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/point_rb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/ptz_point"
+                            android:textSize="12dip" >
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/series_rb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ptz_series"
+                            android:textSize="12dip" >
+                        </RadioButton>
+                    </RadioGroup>
+                </LinearLayout>
+                <!--
+                     LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" 
+                    android:id="@+id/linearLayout5" android:layout_marginTop="5dip"> <SeekBar 
+                    android:layout_height="wrap_content" android:layout_width="200dip" android:max="10" 
+                    android:paddingLeft="10dip" android:id="@+id/ptz_sb"></SeekBar> </LinearLayout
+
+
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dip"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <AbsoluteLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/bright_out_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="41dip"
+                        android:layout_x="12dip"
+                        android:layout_y="28dip"
+                        android:background="@drawable/ptz_bright_out_blur"
+                        android:focusable="true"
+                        android:visibility="visible" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/bright_in_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="41dip"
+                        android:layout_x="80dip"
+                        android:layout_y="28dip"
+                        android:background="@drawable/ptz_bright_in_blur"
+                        android:focusable="true"
+                        android:visibility="visible" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/focus_out_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="40dip"
+                        android:layout_x="12dip"
+                        android:layout_y="82dip"
+                        android:background="@drawable/ptz_focus_out_blur"
+                        android:focusable="true"
+                        android:visibility="visible" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/focus_in_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="40dip"
+                        android:layout_x="79.5dip"
+                        android:layout_y="82.5dip"
+                        android:background="@drawable/ptz_focus_in_blur"
+                        android:focusable="true"
+                        android:visibility="visible" >
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/record_out_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="40dip"
+                        android:layout_x="12dip"
+                        android:layout_y="135dip"
+                        android:background="@drawable/ptz_zoom_out_blur"
+                        android:focusable="true"
+                        android:visibility="visible" />
+
+                    <ImageButton
+                        android:id="@+id/record_in_ib"
+                        android:layout_width="68dip"
+                        android:layout_height="40dip"
+                        android:layout_x="80dip"
+                        android:layout_y="135dip"
+                        android:background="@drawable/ptz_zoom_in_blur"
+                        android:focusable="true"
+                        android:visibility="visible" />
+                </AbsoluteLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ptz_step_tv"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="9dip"
+                android:text="@string/ptz_step" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/ptz_sb"
+                android:layout_width="230dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:max="9"
+                android:paddingLeft="10dip"
+                android:progress="5" >
+            </SeekBar>
+
+            <TextView
+                android:id="@+id/progressValue_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

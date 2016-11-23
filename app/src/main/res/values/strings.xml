@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IVS Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="serverip">server ip</string>
+    <string name="servport">server port</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    
+    <string name="back">back</string>
+    
+    <string name="keepPassword">记住密码</string>
+    <string name="passInternet">通过互联网</string>
+    
+    <string name="loginIn">登录</string>
+    <string name="loginOut">退出</string>
+    <string name="ptz_point">点动</string>
+    <string name="ptz_series">连续</string>
+    <string name="ptz_step">步长</string>
+    
+    <string name="higth_level_user_control">PTZ is the same level or higher level of user control</string>
+    <string name="ptz_lock">PTZ to be locked</string>
+    <string name="higth_level_user_lock">PTZ is the same level or higher-level user to lock</string>
+    <string name="ptz_unlock_faile">The PTZ is not locked, unlock fail</string>
+    <string name="ptz_not_support">The PTZ is not support by device in other domain</string>
+	<string name="ptz_locked_byother_unlock">PTZ locked by another user, please unlock.</string>
+    <string name="DOMAIN_EXTERN_PTZ_UNUSED">Outside the domain of equipment is not operational</string>
+    
+    <string name="collection">Agregar a Favoritos</string>
+    <string name="cancel_collection">Eliminar de Favoritos</string>
+    <string name="stream_is_close">Video interrumpido</string>
+    <string name="failToOPenStream">Error al habilitar flujos de medios.</string>
+    <string name="ptz_locked_by_alarm">Se está vinculando la cámara PTZ.</string>
+    
+    
+    <string name="offline_type_zero">The use account is locked by the administrator.</string>
+	<string name="offline_type_one">The use account is deleted by the administrator.</string>
+	<string name="offline_type_two">The user is signed out by the administrator.</string>
+    <string name="wifi_3g_disabled">WIFI and 3G is disabled.</string>
+    <string name="information">Information</string>
+    <string name="confirm">OK</string>
+   	<string name="menu_camera_realtime_scan">Real-time Browsing</string>
+    
+    <string name="domain">域251澥</string>
+    
+    
+    <string name="recontect_fail">Restore the connection failed</string>
+    
+    <string name="no_authority_err">Insufficient permission.</string>
+    
+    <string name="no_camera_err">Found not Cameras</string>
+    
+    <string name="scc_error">Error in Server.</string>
+    
+    <string name="show_tools">Show PTZ</string>
+    <string name="show_snap">Display snapshot</string>
+    <string name="set_ptz_speed">PTZ Speed</string>
+    <string name="mainStream">Main Stream</string>
+    <string name="subStream">Sub Stream</string>
+    <string name="mtuStream">MTU</string>
+    
+    <string name="network_unreachbale">Excepción de conexión de red.</string>
+    <string name="user_pwd_error">Nombre de usuario o contraseña incorrectos.</string>
+    <string name="system_error">El usuario está fuera de línea. Vuelva a iniciar sesión.</string>
+    <string name="no_business_right">Sin derechos del servicio.</string>
+    <string name="dev_is_not_online">Dispositivo fuera de línea.</string>
+    <string name="is_exception_device">El dispositivo tiene una excepción y no puede proveer servicios de medios.</string>
+    <string name="main_dev_is_null">El dispositivo principal no existe.</string>
+    <string name="mdu_is_not_online">La MU está fuera de línea.</string>
+    <string name="stream_not_found">Flujo no encontrado.</string>
+    <string name="vedio_channel_is_disable">El canal de video está deshabilitado.</string>
+    <string name="get_nvr_route_failed">Error al obtener la información de ruta de NVR.</string>
+    
+    <string name="hide_tools">Hide PTZ</string>
+    
+    <string name="hide_snap">Hide snapshot</string>
+    
+    <string name="snatch">Snapshot Success!</string>
+    
+    <string name="snatch_fail">Snapshot Failed!</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

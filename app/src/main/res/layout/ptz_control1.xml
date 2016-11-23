@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/ptz_bg1"
+    android:layout_marginBottom="5dip"
+    android:orientation="horizontal" >
+        <ImageView
+        android:id="@+id/aperture_reduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/aperture_small"/>
+
+        <ImageView
+        android:id="@+id/aperture_blowup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/aperture_big"/>
+             
+       <ImageView
+        android:id="@+id/focus_near"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/focus_samll"/>
+           
+        <ImageView
+        android:id="@+id/focus_far_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/focus_big"/>
+        
+
+        
+        <ImageView
+        android:id="@+id/scope_largen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shorten"/>
+        
+        <ImageView
+        android:id="@+id/scope_reduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/blowup"/>
+        
+        <ImageView
+        android:id="@+id/lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/unlock"/>
+        
+        <ImageView 
+        android:id="@+id/switchScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/switch_scale_fullscreen"/>        
+        
+    </LinearLayout>
+
+</LinearLayout>
